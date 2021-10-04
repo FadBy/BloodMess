@@ -5,24 +5,24 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float m_strong;
     [SerializeField]
-    private float m_maxHealth;
-    [SerializeField]
     private float attackRange;
     [SerializeField]
     private float speedDefault;
+    [SerializeField]
+    private float m_maxHealth;
+    private float m_currentHealth;
+
+    private HealthBar healthBar;
 
     private Player player;
     private Rigidbody2D rb;
     private Transform target;
     private SpriteRenderer sprite;
-    private HealthBar healthBar;
-
-    private float m_currentHealth;
-
-    public float MaxHealth => m_maxHealth;
+    
     public float Speed => speedDefault;
 
     public float Strong => m_strong;
+
     private float DistanceFromPlayer => Vector2.Distance(transform.position, player.transform.position);
 
     private void Awake()

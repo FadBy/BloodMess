@@ -56,6 +56,7 @@
     <Compile Include="Assets\Game\Scripts\EnemyScripts\EnemySpawner.cs" />
     <Compile Include="Assets\Game\Scripts\Managers\Manager.cs" />
     <Compile Include="Assets\Game\Scripts\Managers\LevelManager.cs" />
+    <Compile Include="Assets\Game\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Game\Scripts\PlayerScripts\Sword.cs" />
     <Compile Include="Assets\Game\Scripts\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Game\Scripts\Managers\Loader.cs" />
@@ -63,10 +64,9 @@
     <Compile Include="Assets\Game\Scripts\Managers\InputController.cs" />
     <Compile Include="Assets\Game\Scripts\Managers\CameraController.cs" />
     <Compile Include="Assets\Game\Scripts\EnemyScripts\EnemyGroup.cs" />
+    <Compile Include="Assets\Menu\Launcher.cs" />
     <Compile Include="Assets\Game\Scripts\Managers\Puller.cs" />
     <Compile Include="Assets\Game\Scripts\PlayerScripts\Player.cs" />
-    <Compile Include="Assets\Menu\Launcher.cs" />
-    <Compile Include="Assets\Game\Scripts\HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
