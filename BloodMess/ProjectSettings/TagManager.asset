@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Sword
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Surface
+    uniqueID: 1633564999
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Enemies
+    uniqueID: 1235889299
+    locked: 0
+  - name: Sword
+    uniqueID: 1742772703
+    locked: 0
+  - name: Player
+    uniqueID: 828784503
+    locked: 0
+  - name: Walls
+    uniqueID: 1932316725
+    locked: 0
+  - name: Health
+    uniqueID: 1838746241
+    locked: 0
